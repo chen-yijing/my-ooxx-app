@@ -1,34 +1,29 @@
-# ooxx Tutorial
+# OOXX Web Game
 
-Follow: https://react.dev/learn/tutorial-tic-tac-toe#before-we-start-the-tutorial
-
-## 📂 專案結構
-ooxx-tutorial/
-├── public/ # 靜態資源 (index.html, icons…)
-├── src/ # 主要程式碼 (components / JS / CSS)
-├── package.json # 專案設定與依賴套件
-├── package-lock.json # 依賴鎖定檔
-├── .gitignore
-└── README.md
-
-yaml
-複製程式碼
+Follow the official React tutorial: <https://react.dev/learn/tutorial-tic-tac-toe#before-we-start-the-tutorial>  
+Developed in **React**. This repo is code-only for reference.
 
 ---
 
-## 🚀 使用方式
+## 📦 Project Structure
+```text
+ooxx-web-game/
+├─ src/                  # App source code (components, styles, logic)
+├─ package.json          # Scripts & dependencies
+├─ package-lock.json     # (optional) dependency lockfile
+├─ .gitignore
+└─ README.md
+Note: This repo may not include public/. If your setup needs public/index.html (e.g., CRA), create a minimal shell first (see below).
 
-### 1) 下載專案
-- 右上角 **Code → Download ZIP** 下載，或使用 Git：
-```bash
-git clone https://github.com/your-username/ooxx-tutorial.git
-cd ooxx-tutorial
-2) 安裝依賴
+✅ Requirements
+Node.js (LTS recommended)
+
+npm
+
+🚀 Quick Start
+Option A — Your package.json has "start" (CRA or equivalent)
 bash
 複製程式碼
 npm install
-3) 啟動開發伺服器
-bash
-複製程式碼
 npm start
-預設將開啟 http://localhost:3000。
+Then open the URL printed in the terminal (commonly http://localhost:3000).
