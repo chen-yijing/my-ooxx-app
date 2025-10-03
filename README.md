@@ -5,21 +5,22 @@ Developed in **React**.
 
 ---
 
-## 📦 Project Structure
+## 📂 Project Structure
 ```text
 ooxx-web-game/
-├─ src/                  # App source code (components, styles, logic)
-├─ package.json          # Scripts & dependencies
-├─ .gitignore
-└─ README.md
+├── src/              # App source code (components, styles, logic)
+├── package.json      # Scripts & dependencies
+├── package-lock.json # Dependency lockfile (if present)
+├── .gitignore
+└── README.md
+```
+## ✅ Requirements
+- Node.js
+- npm
 
-✅ Requirements
-Node.js
-
-npm
-
-🚀 Quick Start
-bash
+## 🚀 Quick Start
+```text
 npm install
 npm start
+```
 Then open the URL printed in the terminal (commonly http://localhost:3000).
