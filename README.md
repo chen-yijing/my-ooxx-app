@@ -1,7 +1,7 @@
 # OOXX Web Game
 
-Follow the official React tutorial: <https://react.dev/learn/tutorial-tic-tac-toe#before-we-start-the-tutorial>  
-Developed in **React**.
+- Follow the official React tutorial: <https://react.dev/learn/tutorial-tic-tac-toe#before-we-start-the-tutorial>  
+- Developed in **React**.
 
 ---
 
@@ -10,10 +10,10 @@ Developed in **React**.
 ooxx-web-game/
 ├── src/              # App source code (components, styles, logic)
 ├── package.json      # Scripts & dependencies
-├── package-lock.json # Dependency lockfile (if present)
-├── .gitignore
+├── package-lock.json # Dependency lockfile
 └── README.md
 ```
+
 ## ✅ Requirements
 - Node.js
 - npm
